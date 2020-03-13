@@ -6,13 +6,14 @@ body {
     text-align: center;
 }
 
-ul {
+header nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
 }
 
-li {
+
+header nav li {
     display: inline-block;
     margin: 10px;
 }
@@ -34,6 +35,35 @@ a {
 #rodape {
     font-weight: bold;
     text-align: center;
-    background-color: rgb(182, 182, 182);
+    background-color: rgba(207, 198, 198, 0.281);
     padding: 10px;
 }
+
+.about{
+    text-align: center;
+}
+
+.about img{
+    width: 300px;
+}
+
+.music{
+    padding: 50px;
+}
+
+.contact form *{
+    display: block;
+}
+
+.contact-form form, iframe{
+    display: inline-block;
+    width: 49%;
+}
+
+header {
+    border: 1px solid rgba(189, 180, 180, 0.322);
+}
+
+
+
+
